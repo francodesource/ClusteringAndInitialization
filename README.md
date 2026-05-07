@@ -17,7 +17,7 @@ The project uses the following datasets:
 
 - **Synthetic Datasets**: Generated with varying parameters (e.g., 25 centers, 100 samples per cluster, 15 features).
 - **Real-World Datasets**:
-  - Olivetti faces: from OpenML, real world high dimensionality multiclass dataset
+  - Olivetti faces: from OpenML, real world high dimensionality multiclass dataset.
 - **Extensions**:
   - High-Dimensional: 1000 features.
   - Overlapping Clusters: Smaller hypercube side for overlap.
