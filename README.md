@@ -23,21 +23,6 @@ The project uses the following datasets:
   - High-Dimensional: 1000 features.
   - Overlapping Clusters: Smaller hypercube side for overlap.
 
-Results from trials are saved in `.txt` files (e.g., `spambase_k_10.txt`).
-
-## Installation
-
-1. Clone or download the repository.
-2. Ensure Python 3.7+ is installed.
-3. Install dependencies:
-   ```
-   pip install numpy matplotlib scikit-learn ucimlrepo pandas
-   ```
-4. For Jupyter Notebook support:
-   ```
-   pip install jupyter
-   ```
-
 ## Usage
 
 1. Open `main.ipynb` in Jupyter Notebook.
@@ -58,7 +43,7 @@ Results from trials are saved in `.txt` files (e.g., `spambase_k_10.txt`).
 
 ## Results
 
-The project compares K-Means and K-Means++ across multiple trials, measuring inertia (sum of squared distances). K-Means++ typically shows lower inertia and better stability, especially in suboptimal initializations.
+The project compares K-Means and K-Means++ across multiple trials, measuring inertia (sum of squared distances) and variability. K-Means++ typically shows lower inertia and better stability, especially in suboptimal initializations.
 
 ## Dependencies
 
