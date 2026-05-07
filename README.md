@@ -1,6 +1,6 @@
 # Clustering Algorithms: K-Means and K-Means++
 
-This project implements and compares the K-Means and K-Means++ clustering algorithms. It includes synthetic dataset generation, visualizations, and performance evaluations on various datasets, including real-world data from sources like UCI Machine Learning Repository.
+This project implements and compares the K-Means and K-Means++ clustering algorithms. It includes synthetic dataset generation, visualizations, and performance evaluations on various datasets, including real-world data.
 
 ## Features
 
@@ -17,8 +17,7 @@ The project uses the following datasets:
 
 - **Synthetic Datasets**: Generated with varying parameters (e.g., 25 centers, 100 samples per cluster, 15 features).
 - **Real-World Datasets**:
-  - Spambase: From OpenML, for spam email classification.
-  - Cloud Dataset: From UCI Repository (ID 155), for cloud computing data.
+  - Olivetti faces: from OpenML, real world high dimensionality multiclass dataset
 - **Extensions**:
   - High-Dimensional: 1000 features.
   - Overlapping Clusters: Smaller hypercube side for overlap.
@@ -50,6 +49,5 @@ The project compares K-Means and K-Means++ across multiple trials, measuring ine
 - numpy
 - matplotlib
 - scikit-learn
-- ucimlrepo
 - pandas
 - jupyter (for notebook)
